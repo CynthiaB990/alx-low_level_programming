@@ -4,7 +4,8 @@
 /**
  *main - prints alphabet in lowercase
  *Return: 0 (Success)
- */
+*/
+
 int main(void)
 {
 	int n;
