@@ -7,18 +7,17 @@
  */
 
 int _strlen(char *s) {
-    int count = 0;
-    while (*s != '\0') { // Loop until we reach the null character
-        count++;
+    int len = 0;
+    while (*s != '\0') { // Keep incrementing len until the null terminator is reached
+        len++;
         s++;
     }
-    return count;
+    return len;
 }
 
 int main() {
     char str[] = "Hello, world!";
     int len = _strlen(str);
-    printf("The length of '%s' is %d\n", str, len);
+    printf("The length of the string is %d.\n", len);
     return 0;
 }
-
