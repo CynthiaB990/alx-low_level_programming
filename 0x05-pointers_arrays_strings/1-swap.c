@@ -1,13 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ *swap_int - Swaps the values of two integers.
+ *@a: Pointer to an integer to swap.
+ *@b: Pointer to another integer to swap.
  *
- * Return: Always 0.
+ *Return: void
  */
 void swap_int(int *a, int *b)
 {
-int tmp = *a;
+int temp;
+
+temp = *a;
 *a = *b;
-*b = tmp;
+*b = temp;
 }
