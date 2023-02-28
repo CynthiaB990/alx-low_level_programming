@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  *print_rev - I've not got a reverse g
  *@s: string
  *Return: Always 0.
  */
+
 void print_rev(char *s)
 {
 int long1 = 0;
