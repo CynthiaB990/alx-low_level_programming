@@ -1,8 +1,11 @@
+#include “main.h”
 #include <stdio.h>
 
 /**
- *main - check you
- *Return: Always 0.
+ *reset_to_98 - updates the value it points to to 98.
+ *@n: pointer to an integer.
+ *
+ *Return: void.
  */
 void reset_to_98(int *n)
 {
