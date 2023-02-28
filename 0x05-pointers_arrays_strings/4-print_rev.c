@@ -17,7 +17,7 @@ len++;
 /* Print the string in reverse */
 for (len -= 1; len >= 0; len--)
 {
-_putchar(s[len]);
+putchar(s[len]);
 }
 /* Print a newline character */
 _putchar('\n');
