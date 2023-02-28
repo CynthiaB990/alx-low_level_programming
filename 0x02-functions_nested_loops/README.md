@@ -1,1 +1,1 @@
-Task 0. putchar
+0x02. C - Functions, nested loops
