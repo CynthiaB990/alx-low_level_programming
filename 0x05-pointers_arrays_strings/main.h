@@ -5,12 +5,15 @@
 #define MAX_STR_LEN 100
 
 /* Function prototypes */
-int sum_array(int *arr, int len);
-void reverse_array(int *arr, int len);
-int find_max(int *arr, int len);
-int string_length(char *str);
-void string_copy(char *dest, char *src);
 void string_reverse(char *str);
 void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *str);
+void puts_half(char *str);
+void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *s);
 
 #endif /* MAIN_H */
