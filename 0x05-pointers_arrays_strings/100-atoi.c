@@ -24,5 +24,5 @@ break;
 i++;
 }
 
-return result;
+return (result);
 }
