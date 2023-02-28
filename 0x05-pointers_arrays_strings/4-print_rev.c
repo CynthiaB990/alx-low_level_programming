@@ -20,5 +20,5 @@ for (len -= 1; len >= 0; len--)
 putchar(s[len]);
 }
 /* Print a newline character */
-_putchar('\n');
+putchar('\n');
 }
