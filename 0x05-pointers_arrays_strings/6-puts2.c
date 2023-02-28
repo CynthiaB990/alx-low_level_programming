@@ -10,7 +10,7 @@ int i;
 
 for (i = 0; str[i] != '\0'; i += 2)
 {
-putchar(str[i]);
+_putchar(str[i]);
 }
 putchar('\n');
 }
