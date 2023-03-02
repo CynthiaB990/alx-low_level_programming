@@ -2,8 +2,8 @@
 
 /**
  *_strcat - appends the src string to the dest  
- *@dest - A pointer to the string tonate
- *@src - source of the string to be appended to @dest
+ *dest - A pointer to the string tonate
+ *src - source of the string to be appended to @dest
  *
  *Return: pointer to the destination of string @dest
  */
