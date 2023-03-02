@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_strcat - appends the src string to the dest  
+ *__strcat - function that appe
  *dest - A pointer to the string tonate
  *src - source of the string to be appended to @dest
  *
@@ -10,8 +10,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-int i;
-int j;
+int dest =  i;
+int src =  j;
 
 i = 0;
 while (dest[i] != '\0')
