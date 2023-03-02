@@ -1,30 +1,28 @@
 #include "main.h"
 
 /**
- *__strcat - function that appe
- *dest - A pointer to the string tonate
- *src - source of the string to be appended to @dest
+ *_strcat - concatenates two strings
+ *@dest: destination string
+ *@src: source string
  *
- *Return: pointer to the destination of string @dest
+ *Return: pointer to resulting string dest
  */
-
 char *_strcat(char *dest, char *src)
 {
-int dest =  i;
-int src =  j;
+int dest_len = 0;
+int i;
 
-i = 0;
-while (dest[i] != '\0')
+while (dest[dest_len] != '\0')
 {
-i++
+dest_len++;
 }
-j = 0;
-while (src[j] != '\0')
+
+for (i = 0; src[i] != '\0'; i++)
 {
-dest[i] = src[j];
-i++;
-j++;
+dest[dest_len + i] = src[i];
 }
-dest[i] - '\0';
+
+dest[dest_len + i] = '\0';
+
 return (dest);
 }
