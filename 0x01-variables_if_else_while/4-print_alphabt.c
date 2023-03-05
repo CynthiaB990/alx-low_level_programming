@@ -1,16 +1,24 @@
 #include <stdio.h>
 
-int main(void) {
-    char letter = 'a';
+/*
+ *main - program that prints the alphabet in lowercase
+ *Return: 0 (Success)
+ */
 
-    while (letter <= 'z') {
-        if (letter != 'q' && letter != 'e') {
-            putchar(letter);
-        }
-        letter++;
-    }
+int main(void)
+{
+char letter = 'a';
 
-    putchar('\n');
+while (letter <= 'z')
+{
+if (letter != 'q' && letter != 'e')
+{
+putchar(letter);
+}
+letter++;
+}
 
-    return 0;
+putchar('\n');
+
+return (0);
 }
