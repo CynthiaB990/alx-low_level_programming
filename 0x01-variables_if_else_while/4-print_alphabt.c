@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-/*
- *main-A  program that prints the alphabet in lowercase,followed by a new line.
+/**
+ *main - prints the alphabet in lowercase, excluding 'q' and 'e'
  *
- *Return: 0 (Success)
+ *Return: always 0 (success)
  */
-
 int main(void)
 {
 char letter = 'a';
