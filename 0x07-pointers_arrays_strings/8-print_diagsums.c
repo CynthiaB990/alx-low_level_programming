@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *print_diagsums - prints the sum of the two diagonals of a square matrix of integers
+ *print_diagsums - prints the sum of the two diagonals of a squares
  *@a: pointer to the first element of the matrix
  *@size: size of the matrix
  *
@@ -19,8 +19,8 @@ if (i == j)
 sum1 += *(a + i * size + j);
 if (i + j == size - 1)
 sum2 += *(a + i * size + j);
-}
+}<F12>
 }
 printf("%d, %d\n", sum1, sum2);
-Return (0);
+return (0);
 }
