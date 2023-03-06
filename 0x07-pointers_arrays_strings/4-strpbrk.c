@@ -18,11 +18,11 @@ for (p = accept; *p != '\0'; p++)
 {
 if (*s == *p)
 {
-return s;
+return (s);
 }
 }
 s++;
 }
 
-return NULL;
+return (NULL);
 }
