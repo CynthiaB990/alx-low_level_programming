@@ -19,7 +19,8 @@ if (i == j)
 sum1 += *(a + i * size + j);
 if (i + j == size - 1)
 sum2 += *(a + i * size + j);
-}<F12>
+}
+< F12 >
 }
 printf("%d, %d\n", sum1, sum2);
 return (0);
